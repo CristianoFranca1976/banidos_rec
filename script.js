@@ -11,6 +11,7 @@ document
     const responsavel = document.getElementById("responsavel").value.trim();
     const responsavelID = document.getElementById("responsavelID").value.trim();
     const motivo = document.getElementById("motivo").value.trim();
+    const link = "https://banidos-rec.vercel.app/";
 
     const content = `
     **Banido Registrado**\n
@@ -18,7 +19,8 @@ document
     **ID:** ${id}\n
     **RESPONSÁVEL:** ${responsavel}\n
     **RESPONSÁVEL ID:** ${responsavelID}\n
-    **MOTIVO:**\n${motivo}
+    **MOTIVO:** ${motivo}\n\n
+    ***${link}***
     `;
 
     fetch(webhookURL, {
