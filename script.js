@@ -1,5 +1,5 @@
 const webhookURL =
-  "https://discord.com/api/webhooks/1366020837152526356/km-LjB-4Y8BrLc-uZJDeUa_8O4uO-FylbeEitmiMHV6SC19iaMYICOXz3DwPasmePsfz";
+  "https://banidos-rec.vercel.app/api/sendWebhook";
 
 document
   .getElementById("webhookForm")
